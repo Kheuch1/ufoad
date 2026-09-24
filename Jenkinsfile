@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World from GITHUB'
             }
-            stage('WELCOME') {
+        stage('WELCOME') {
             steps {
                 echo 'WELCOME UADB'
             }
