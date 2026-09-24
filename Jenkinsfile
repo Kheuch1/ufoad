@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World from GITHUB'
+            }
+            stage('WELCOME') {
+            steps {
+                echo 'WELCOME UADB'
             }
         }
         stage('UADB') {
